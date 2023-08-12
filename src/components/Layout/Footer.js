@@ -16,6 +16,11 @@ const Footer = () => {
             cursor: 'pointer',
             mr: 2,
           },
+          '& svg:hover': {
+            color: 'goldenrod',
+            transform: 'translateX(5px)',
+            transition: 'all 400ms',
+          },
         }}
       >
         <FacebookIcon />
