@@ -69,9 +69,10 @@
     opacity: 0.9;
   }
   .home .headerContainer h1 {
+    margin-top: 20px;
     font-size: 40px;
     height: 30px;
-    margin: 15px 0px;
+    margin: 30px 0px;
     color: azure;
   }
   .home .headerContainer p {
