@@ -64,20 +64,33 @@
     align-items: center;
     flex-direction: column;
     color: azure;
+    background-color: black;
+    transform: 30px;
+    opacity: 0.9;
   }
-  .home.headerContainer h1 {
+  .home .headerContainer h1 {
     font-size: 40px;
     height: 30px;
-    margin: 15px 0;
+    margin: 15px 0px;
     color: azure;
   }
-  .home.headerContainer p {
-    font-size: 30px;
+  .home .headerContainer p {
+    font-size: 20px;
+    font-weight: 300;
     color: azure;
   }
   .headerContainer button {
     background-color: azure;
     color: black;
     margin-bottom: 30px;
+  }
+  .headerContainer button:hover {
+    background-color: goldenrod;
+    color: black;
+    margin-bottom: 30px;
+    border-color: black;
+    transition: all 400ms;
+    font-size: 20px;
+    font-weight: 400;
   }
 }
